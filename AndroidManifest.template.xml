@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="io.github.multimodalrouting.lein-droid-template"
+          package="one.gra.multimodalrouting"
           android:versionCode="{{version-code}}"
           android:versionName="{{version-name}}" >
 
@@ -8,7 +8,7 @@
             android:targetSdkVersion="{{target-version}}" />
 
   <application
-      android:name="io.github.multimodalrouting.lein-droid-template.App"
+      android:name="neko.App"
       android:icon="@drawable/ic_launcher"
       android:label="clojure-android project">
     <activity android:name=".SplashActivity"
